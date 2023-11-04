@@ -16,19 +16,20 @@ st.markdown(
 # Display dosha images and descriptions
 columns = st.columns(3)
 with columns[0]:
-    st.image("https://drive.google.com/file/d/1VGEipz8f0SRr6OI2r-lsQAeddK4E_W8p/view?usp=sharing", caption="Vata Dosha", use_container_width=True)
+    image_url = "https://i.imgur.com/lzvGIUW.png"
+    st.image(image_url, caption="Vata Dosha", use_container_width=True)
     st.write("Vata Dosha")
     st.write(
         "Vata is associated with the elements of air and ether (space). It represents energy, movement, and change. People with a predominant Vata dosha are creative, quick-thinking, and adaptable.")
     
 with columns[1]:
-    st.image("https://drive.google.com/file/d/1VGEipz8f0SRr6OI2r-lsQAeddK4E_W8p/view?usp=sharing", caption="Pitta Dosha", use_container_width=True)
+    st.image(image_url, caption="Vata Dosha", use_container_width=True)
     st.write("Pitta Dosha")
     st.write(
         "Pitta is linked to the elements of fire and water. It governs metabolism, digestion, and transformation. People with a predominant Pitta dosha tend to be determined, intelligent, and passionate.")
     
 with columns[2]:
-    st.image("https://drive.google.com/file/d/1VGEipz8f0SRr6OI2r-lsQAeddK4E_W8p/view?usp=sharing", caption="Kapha Dosha", use_container_width=True)
+    st.image(image_url, caption="Vata Dosha", use_container_width=True)
     st.write("Kapha Dosha")
     st.write(
         "Kapha corresponds to the elements of earth and water. It provides stability and structure, leading to qualities of calmness, patience, and nurturing.")
