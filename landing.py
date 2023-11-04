@@ -1,10 +1,25 @@
 import streamlit as st
 
+def add_bg_from_url():
+    st.markdown(
+         f"""
+         <style>
+         .stApp {{
+             background-image: url("https://static.vecteezy.com/system/resources/previews/007/934/086/non_2x/abstract-purple-and-pink-gradient-waves-background-glowing-lines-on-purple-background-vector.jpg");
+             background-attachment: fixed;
+             
+             background-size: cover
+         }}
+         </style>
+         """,
+         unsafe_allow_html=True
+     )
 
+add_bg_from_url()
 
 
 # Set page title and icon
-st.set_page_config(page_title="Dosha Prediction App", page_icon="🌿")
+
 st.title("Discover Your Dosha")
 # Define the app title and description
 st.image("https://i.imgur.com/ehvfiUX.png")  # Add the image here
