@@ -11,7 +11,7 @@ st.write("Welcome to the Dosha Prediction App, your guide to Ayurvedic wellness!
 # Dosha descriptions
 st.header("What are Vata, Pitta, and Kapha Doshas?")
 st.markdown(
-    "In Ayurveda, the ancient science of holistic healing, it is believed that everyone is a unique combination of three doshas:"
+    "Ayurvedic wisdom reveres you as a celestial marvel, a miniature reflection of Mother Nature herself, meticulously crafted from the quintessential elements of the cosmos: ether, air, fire, water, and earth. These primordial elements elegantly converge in harmonious pairs to give birth to what is known as the tri-dosha – the three fundamental principles of energy that underpin the tapestry of life and existence. Each elemental duet boasts its distinct attributes and natural rhythms."
 )
 
 # Create columns for the dosha descriptions and images
