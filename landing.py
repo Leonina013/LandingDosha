@@ -43,6 +43,7 @@ with col3:
 
 # CTA (Call to Action)
 st.header("Ready to Discover Your Dosha?")
+st.image("https://i.imgur.com/wy3nGeh.jpg")
 st.write("Get started with our Dosha assessment and prediction. Click the button below to begin!")
 
 # Button to start assessment
