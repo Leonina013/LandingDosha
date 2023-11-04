@@ -47,10 +47,12 @@ st.image("https://i.imgur.com/wy3nGeh.jpg")
 st.write("Get started with our Dosha assessment and prediction. Click the button below to begin!")
 
 # Button to start assessment
+# Button to start assessment
 if st.button("Start Assessment"):
-    st.write("Redirect to the Dosha assessment page here")
+    st.markdown("Click [here](https://prakruti-kwvkhp7xc6tfba7ekepzpz.streamlit.app/#prakruti-vikruti-constitution-quiz) to start the assessment.")
 
-st.write("OR Scan the QR code to start the assessment")
+st.write("OR") 
+st.write("Scan the QR code to start the assessment")
 st.image("https://i.imgur.com/SvVg5nD.png", width=100)
 
 
