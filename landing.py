@@ -6,6 +6,7 @@ st.markdown(
     body {{
         background-image: url('https://i.imgur.com/QGG43Wb.jpg');
         background-size: cover;
+        background-color: white;
     }}
     </style>
     """,
@@ -14,17 +15,6 @@ st.markdown(
 
 # Set page title and icon
 st.set_page_config(page_title="Dosha Prediction App", page_icon="🌿")
-st.markdown(
-    """
-    <style>
-    body {
-        background-color: white;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
 st.title("Discover Your Dosha")
 # Define the app title and description
 st.image("https://i.imgur.com/ehvfiUX.png")  # Add the image here
