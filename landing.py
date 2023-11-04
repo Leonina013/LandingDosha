@@ -13,23 +13,23 @@ st.markdown(
     "In Ayurveda, the ancient science of holistic healing, it is believed that everyone is a unique combination of three doshas:"
 )
 
-# Display dosha images and descriptions
-columns = st.columns(3)
-with columns[0]:
-    image_url = "https://i.imgur.com/lzvGIUW.png"
-    st.image(image_url, use_container_width=True)
+# Create columns for the dosha descriptions
+col1, col2, col3 = st.columns(3)
+
+# Vata Dosha
+with col1:
     st.write("Vata Dosha")
     st.write(
         "Vata is associated with the elements of air and ether (space). It represents energy, movement, and change. People with a predominant Vata dosha are creative, quick-thinking, and adaptable.")
-    
-with columns[1]:
-    st.image(image_url, use_container_width=True)
+
+# Pitta Dosha
+with col2:
     st.write("Pitta Dosha")
     st.write(
         "Pitta is linked to the elements of fire and water. It governs metabolism, digestion, and transformation. People with a predominant Pitta dosha tend to be determined, intelligent, and passionate.")
-    
-with columns[2]:
-    st.image(image_url, use_container_width=True)
+
+# Kapha Dosha
+with col3:
     st.write("Kapha Dosha")
     st.write(
         "Kapha corresponds to the elements of earth and water. It provides stability and structure, leading to qualities of calmness, patience, and nurturing.")
