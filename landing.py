@@ -1,5 +1,8 @@
 import streamlit as st
+import webbrowser
 
+
+url = 'https://prakruti-kwvkhp7xc6tfba7ekepzpz.streamlit.app/#prakruti-vikruti-constitution-quiz'
 # Set page title and icon
 st.set_page_config(page_title="Dosha Prediction App", page_icon="🌿")
 st.title("Discover Your Dosha")
@@ -49,12 +52,8 @@ st.write("Get started with our Dosha assessment and prediction. Click the button
 # Button to start assessment
 # Button to start assessment
 if st.button("Start Assessment"):
-    st.markdown(
-        '<script type="text/javascript">'
-        'window.open("https://prakruti-kwvkhp7xc6tfba7ekepzpz.streamlit.app/#prakruti-vikruti-constitution-quiz", "_blank");'
-        '</script>',
-        unsafe_allow_html=True
-    )
+    webbrowser.open_new_tab(url)
+    
 st.write("OR") 
 st.write("Scan the QR code to start the assessment")
 st.image("https://i.imgur.com/SvVg5nD.png", width=100)
