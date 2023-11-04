@@ -5,7 +5,7 @@ def add_bg_from_url():
          f"""
          <style>
          .stApp {{
-             background-image: url("https://static.vecteezy.com/system/resources/previews/007/934/086/non_2x/abstract-purple-and-pink-gradient-waves-background-glowing-lines-on-purple-background-vector.jpg");
+             background-image: url("https://www.solidbackgrounds.com/1920x1080-white-solid-color-background.html");
              background-attachment: fixed;
              
              background-size: cover
