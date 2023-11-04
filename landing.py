@@ -49,7 +49,7 @@ st.write("Get started with our Dosha assessment and prediction. Click the button
 # Button to start assessment
 # Button to start assessment
 if st.button("Start Assessment"):
-    st.markdown("Click [here](https://prakruti-kwvkhp7xc6tfba7ekepzpz.streamlit.app/#prakruti-vikruti-constitution-quiz) to start the assessment.")
+    st.markdown('<a href="https://prakruti-kwvkhp7xc6tfba7ekepzpz.streamlit.app/#prakruti-vikruti-constitution-quiz" target="_blank">Start Assessment</a>', unsafe_allow_html=True)
 
 st.write("OR") 
 st.write("Scan the QR code to start the assessment")
