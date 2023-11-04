@@ -1,4 +1,8 @@
 import streamlit as st
+import streamlit as st
+import os
+import base64
+from PIL import Image
 
 # Function to add background from URL
 def add_bg_from_url(image_url):
