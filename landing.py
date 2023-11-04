@@ -2,10 +2,10 @@ import streamlit as st
 
 # Set page title and icon
 st.set_page_config(page_title="Dosha Prediction App", page_icon="🌿")
-
+st.title("Discover Your Dosha")
 # Define the app title and description
 st.image("https://i.imgur.com/ehvfiUX.png")  # Add the image here
-st.title("Discover Your Dosha")
+
 st.write("Welcome to the Dosha Prediction App, your guide to Ayurvedic wellness!")
 
 # Dosha descriptions
@@ -22,21 +22,21 @@ image_width = 200  # Adjust the width as needed
 
 # Vata Dosha
 with col1:
-    st.image("https://i.imgur.com/lzvGIUW.png", caption="Vata Dosha", use_container_width=False, width=image_width)
+    st.image("https://i.imgur.com/lzvGIUW.png", caption="Vata Dosha", width=image_width)
     st.write("Vata Dosha")
     st.write(
         "Vata is associated with the elements of air and ether (space). It represents energy, movement, and change. People with a predominant Vata dosha are creative, quick-thinking, and adaptable.")
 
 # Pitta Dosha
 with col2:
-    st.image("https://i.imgur.com/UE2D26Z.png", caption="Pitta Dosha", use_container_width=False, width=image_width)
+    st.image("https://i.imgur.com/UE2D26Z.png", caption="Pitta Dosha", width=image_width)
     st.write("Pitta Dosha")
     st.write(
         "Pitta is linked to the elements of fire and water. It governs metabolism, digestion, and transformation. People with a predominant Pitta dosha tend to be determined, intelligent, and passionate.")
 
 # Kapha Dosha
 with col3:
-    st.image("https://i.imgur.com/bx8owFD.png", caption="Kapha Dosha", use_container_width=False, width=image_width)
+    st.image("https://i.imgur.com/bx8owFD.png", caption="Kapha Dosha", width=image_width)
     st.write("Kapha Dosha")
     st.write(
         "Kapha corresponds to the elements of earth and water. It provides stability and structure, leading to qualities of calmness, patience, and nurturing.")
