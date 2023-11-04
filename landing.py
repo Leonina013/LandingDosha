@@ -4,7 +4,7 @@ import streamlit as st
 st.set_page_config(page_title="Dosha Prediction App", page_icon="🌿")
 
 # Define the app title and description
-st.image("https://i.imgur.com/ehvfiUX.png", use_container_width=True)  # Add the image here
+st.image("https://i.imgur.com/ehvfiUX.png")  # Add the image here
 st.title("Discover Your Dosha")
 st.write("Welcome to the Dosha Prediction App, your guide to Ayurvedic wellness!")
 
