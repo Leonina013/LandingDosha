@@ -14,8 +14,8 @@ st.markdown(
 )
 
 # Display dosha images and descriptions
-container = st.container()
-with st.columns(3):
+container = st.beta_container()
+with st.beta_columns(3):
     with container:
         st.image("vata_image.jpg", caption="Vata Dosha", use_container_width=True)
         st.write("Vata Dosha")
