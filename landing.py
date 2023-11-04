@@ -50,8 +50,9 @@ st.write("Get started with our Dosha assessment and prediction. Click the button
 if st.button("Start Assessment"):
     st.write("Redirect to the Dosha assessment page here")
 
-st.image("https://i.imgur.com/SvVg5nD.png")
 st.write("OR Scan the QR code above to start the assessment")
+st.image("https://i.imgur.com/SvVg5nD.png", width=100)
+
 
 # Disclaimer
 st.markdown("Please note that the Dosha Prediction App is for informational purposes only and should not replace professional advice from an Ayurvedic practitioner.")
