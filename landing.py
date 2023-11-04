@@ -14,25 +14,24 @@ st.markdown(
 )
 
 # Display dosha images and descriptions
-container = st.beta_container()
-with st.beta_columns(3):
-    with container:
-        st.image("vata_image.jpg", caption="Vata Dosha", use_container_width=True)
-        st.write("Vata Dosha")
-        st.write(
-            "Vata is associated with the elements of air and ether (space). It represents energy, movement, and change. People with a predominant Vata dosha are creative, quick-thinking, and adaptable.")
+columns = st.columns(3)
+with columns[0]:
+    st.image("vata_image.jpg", caption="Vata Dosha", use_container_width=True)
+    st.write("Vata Dosha")
+    st.write(
+        "Vata is associated with the elements of air and ether (space). It represents energy, movement, and change. People with a predominant Vata dosha are creative, quick-thinking, and adaptable.")
     
-    with container:
-        st.image("pitta_image.jpg", caption="Pitta Dosha", use_container_width=True)
-        st.write("Pitta Dosha")
-        st.write(
-            "Pitta is linked to the elements of fire and water. It governs metabolism, digestion, and transformation. People with a predominant Pitta dosha tend to be determined, intelligent, and passionate.")
+with columns[1]:
+    st.image("pitta_image.jpg", caption="Pitta Dosha", use_container_width=True)
+    st.write("Pitta Dosha")
+    st.write(
+        "Pitta is linked to the elements of fire and water. It governs metabolism, digestion, and transformation. People with a predominant Pitta dosha tend to be determined, intelligent, and passionate.")
     
-    with container:
-        st.image("kapha_image.jpg", caption="Kapha Dosha", use_container_width=True)
-        st.write("Kapha Dosha")
-        st.write(
-            "Kapha corresponds to the elements of earth and water. It provides stability and structure, leading to qualities of calmness, patience, and nurturing.")
+with columns[2]:
+    st.image("kapha_image.jpg", caption="Kapha Dosha", use_container_width=True)
+    st.write("Kapha Dosha")
+    st.write(
+        "Kapha corresponds to the elements of earth and water. It provides stability and structure, leading to qualities of calmness, patience, and nurturing.")
 
 # CTA (Call to Action)
 st.header("Ready to Discover Your Dosha?")
