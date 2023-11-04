@@ -5,7 +5,7 @@ def add_bg_from_url():
          f"""
          <style>
          .stApp {{
-             background-image: url("https://www.solidbackgrounds.com/1920x1080-white-solid-color-background.html");
+             background-image: url("https://i.imgur.com/3ZUFGhy.jpg");
              background-attachment: fixed;
              
              background-size: cover
