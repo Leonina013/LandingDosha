@@ -1,5 +1,16 @@
 import streamlit as st
 
+st.markdown(
+    f"""
+    <style>
+    body {{
+        background-image: url('https://i.imgur.com/QGG43Wb.jpg');
+        background-size: cover;
+    }}
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 # Set page title and icon
 st.set_page_config(page_title="Dosha Prediction App", page_icon="🌿")
