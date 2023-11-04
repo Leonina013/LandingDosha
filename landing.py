@@ -1,5 +1,25 @@
 import streamlit as st
 
+# Function to add background from URL
+def add_bg_from_url(image_url):
+    st.markdown(
+        f"""
+        <style>
+        .stApp {{
+            background-image: url("{image_url}");
+            background-attachment: fixed;
+            background-size: cover;
+            background-color: white;
+        }}
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
+
+# Call the function to set the background image
+add_bg_from_url("https://i.imgur.com/QGG43Wb.jpg")
+
+
 # Set page title and icon
 st.set_page_config(page_title="Dosha Prediction App", page_icon="🌿")
 st.title("Discover Your Dosha")
