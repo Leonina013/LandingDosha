@@ -1,2 +1,6 @@
-streamlit==1.28.0
+pandas
+streamlit
+numpy
+plotly
 pillow
+python
