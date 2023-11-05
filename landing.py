@@ -1,5 +1,7 @@
 import streamlit as st
 
+import streamlit as st
+
 def add_bg_and_text_color(image_url):
     st.markdown(
         f"""
@@ -8,12 +10,26 @@ def add_bg_and_text_color(image_url):
             background-image: url("{image_url}");
             background-attachment: fixed;
             background-size: cover;
-            color: black; /* Change text color */
+        }}
+        .stText {{
+            color: black; /* Change text color for normal text */
+        }}
+        .title {{
+            color: black; /* Change text color for titles */
         }}
         </style>
         """,
         unsafe_allow_html=True
     )
+
+# Call the function to set the background image and text color
+add_bg_and_text_color("your_image_url.jpg")
+
+# Display the title with custom text color
+st.title("Discover Your Dosha")
+
+# Rest of your Streamlit app code
+
 
 add_bg_and_text_color("https://i.imgur.com/QGG43Wb.jpg")
 
