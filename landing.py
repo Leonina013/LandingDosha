@@ -70,4 +70,4 @@ st.write("Scan the QR code to start the assessment")
 st.image("https://i.imgur.com/SvVg5nD.png", width=100)
 
 # Footer
-st.write("© 2023 Dosha Prediction App. All rights reserved.")
+st.write('The goal of life is to make your heartbeat match the beat of the universe, to match your nature with Nature. -Joseph Campbell”)
