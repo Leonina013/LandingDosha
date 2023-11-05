@@ -1,5 +1,7 @@
 import streamlit as st
 
+import streamlit as st
+
 def add_bg_and_text_color(image_url):
     st.markdown(
         f"""
@@ -9,16 +11,17 @@ def add_bg_and_text_color(image_url):
             background-attachment: fixed;
             background-size: cover;
         }}
-        .stText {{
+        .stMarkdown {{
             color: black; /* Change text color for normal text */
         }}
         .title {{
-            color: black; /* Change text color for titles */
+            color: black !important; /* Change text color for titles */
         }}
         </style>
         """,
         unsafe_allow_html=True
     )
+
 
 add_bg_and_text_color("https://i.imgur.com/QGG43Wb.jpg")
 
