@@ -9,6 +9,7 @@ def add_bg_and_text_color(image_url):
             background-attachment: fixed;
             background-size: cover;
             color: black; /* Change text color */
+            color: black; /* Change text color for titles */
         }}
         </style>
         """,
