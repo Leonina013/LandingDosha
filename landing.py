@@ -12,9 +12,6 @@ def add_bg_and_text_color(image_url):
         .stText {{
             color: black; /* Change text color for normal text */
         }}
-        h1, h2, h3, h4, h5, h6 {{
-            color: black !important; /* Change text color for headings */
-        }}
         .title {{
             color: black; /* Change text color for titles */
         }}
