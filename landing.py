@@ -1,20 +1,5 @@
 import streamlit as st
 
-def set_title_text_color_black():
-    st.markdown(
-        """
-        <style>
-        .title {
-            color: black !important;
-        }
-        .stMarkdown {
-            color: black !important;
-        }
-        </style>
-        """,
-        unsafe_allow_html=True
-    )
-
 def add_bg_and_text_color(image_url):
     st.markdown(
         f"""
@@ -23,12 +8,12 @@ def add_bg_and_text_color(image_url):
             background-image: url("{image_url}");
             background-attachment: fixed;
             background-size: cover;
+            color: black; /* Change text color */
         }}
         </style>
         """,
         unsafe_allow_html=True
     )
-
 
 
 set_title_text_color_black()
