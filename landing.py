@@ -15,9 +15,6 @@ def add_bg_and_text_color(image_url):
         unsafe_allow_html=True
     )
 
-
-set_title_text_color_black()
-
 add_bg_and_text_color("https://i.imgur.com/QGG43Wb.jpg")
 
 
