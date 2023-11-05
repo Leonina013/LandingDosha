@@ -8,9 +8,7 @@ def add_bg_and_text_color(image_url):
             background-image: url("{image_url}");
             background-attachment: fixed;
             background-size: cover;
-        }}
-        body {{
-            color: black;
+            color: black; /* Change text color */
         }}
         </style>
         """,
