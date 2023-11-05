@@ -1,21 +1,23 @@
 import streamlit as st
 
-def add_bg_from_url():
+def add_bg_and_text_color(image_url):
     st.markdown(
-         f"""
-         <style>
-         .stApp {{
-             background-image: url("https://i.imgur.com/DU3tef0.jpg");
-             background-attachment: fixed;
-             
-             background-size: cover
-         }}
-         </style>
-         """,
-         unsafe_allow_html=True
-     )
+        f"""
+        <style>
+        .stApp {{
+            background-image: url("{image_url}");
+            background-attachment: fixed;
+            background-size: cover;
+        }}
+        body {{
+            color: black;
+        }}
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
 
-add_bg_from_url()
+add_bg_and_text_color("https://i.imgur.com/QGG43Wb.jpg")
 
 
 # Set page title and icon
