@@ -14,6 +14,9 @@ def add_bg_and_text_color(image_url):
         .stText {{
             color: black; /* Change text color for normal text */
         }}
+        h1, h2, h3, h4, h5, h6 {{
+            color: black !important; /* Change text color for headings */
+        }}
         .title {{
             color: black; /* Change text color for titles */
         }}
@@ -22,13 +25,8 @@ def add_bg_and_text_color(image_url):
         unsafe_allow_html=True
     )
 
-# Call the function to set the background image and text color
-add_bg_and_text_color("your_image_url.jpg")
-
-# Display the title with custom text color
-st.title("Discover Your Dosha")
-
 # Rest of your Streamlit app code
+
 
 
 add_bg_and_text_color("https://i.imgur.com/QGG43Wb.jpg")
