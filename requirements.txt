@@ -2,5 +2,4 @@ pandas
 streamlit
 numpy
 plotly
-pillow
-python==23.3.1
+Pillow==8.4.0
