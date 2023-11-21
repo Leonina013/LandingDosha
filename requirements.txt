@@ -3,3 +3,4 @@ streamlit
 numpy
 plotly
 Pillow==8.4.0
+webbrowser
