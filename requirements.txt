@@ -3,4 +3,4 @@ streamlit
 numpy
 plotly
 pillow
-python
+python==23.3.1
