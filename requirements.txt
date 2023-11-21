@@ -3,5 +3,4 @@ streamlit
 numpy
 plotly
 pillow
-python
-
+webbrowser
